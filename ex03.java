@@ -22,7 +22,7 @@ public class ex03{
             System.out.printf("Telefone: ");//Pergunta o telefone
             agenda [n][4] = s.nextLine();//Armazena a resposta na coluna correspondente
 
-            n++;
+            n++;//Vai somando 1 na var n até dar 10
         } while (n < 10);//Final laço repetição até 10x
 
         for (int i = 0; i < agenda.length; i++) {//Laço repetição for verificando se é maior que a quantidade de elementos da matriz
